@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<!-- В проект дадані папки css, fonts, images і js, використовується
+лише папка "images", інші додані для загального розуміння -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Практика</title>
+
+    <!-- Для початку обрано найпростійший метод скидання стилю (але зрозуміло,
+    що цього буде недостатньо в уіх випадках, лише щоб непереобтяжувати сторінку),
+    далі планується додавання параметрів (кількість і наповнення буде залежати від того,
+    що буде використовуватися в кінцевому файлі) -->
+    <!-- "<style>***</style>" має бути в окремому файлі CSS -->
+    <!-- "<style>***</style>" нижче не дороблені, це "сирий" варіант для деякіх classes -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .header__search-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .input {
+        width: 360px;
+        height: 36px;
+        border: 1px solid #000;
+      }
+
+      .search-button {
+        width: 70px;
+        height: 36px;
+        border: 1px solid #2f00ff;
+      }
+
+      .search-button__image {
+        width: 70px;
+        height: 36px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Спроба використання BEM -->
+    <!-- "class" додано для подальшого створення CSS-файлу, наразі такого файлу немає-->
+
+    <!-- це блок -->
+    <div class="header">
+      <!-- нижче елемент для блоку "header" -->
+      <div class="header__title">
+        <p>МОЇ ЗАВДАННЯ</p>
+      </div>
+      <!-- аналогічно -->
+      <div class="header__search-container">
+        <!-- нижче елемент в загальному блоці "header", не дивлячись на вкладення,
+        позначаєм як елемент блоку "header" -->
+        <input type="text" class="input" placeholder="Введіть текст" />
+        <div class="search-button">
+          <!-- "в ідеальному світі" width і height картинки має бути в CSS, і по-іншому
+          (масштабування, не розбирався як, і, наразі, не прагну),
+          вказано фактичний розмір з Figma -->
+          <img
+            src="images/search-button.jpg"
+            alt="Search"
+            class="search-button__image"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
