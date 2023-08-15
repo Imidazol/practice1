@@ -1,0 +1,28 @@
+      .header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+
+      .header__search-container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+
+      .input {
+          width: 360px;
+          height: 36px;
+          border: 1px solid #000;
+      }
+
+      .search-button {
+          width: 70px;
+          height: 36px;
+          border: 1px solid #2f00ff;
+      }
+
+      .search-button__image {
+          width: 70px;
+          height: 36px;
+      }
