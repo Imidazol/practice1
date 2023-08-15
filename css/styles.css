@@ -4,25 +4,25 @@
           justify-content: space-between;
       }
 
-      .header__search-container {
+      .header__search-form {
           display: flex;
           align-items: center;
           justify-content: center;
       }
 
-      .input {
+      .header__search-form-field {
           width: 360px;
           height: 36px;
           border: 1px solid #000;
       }
 
-      .search-button {
+      .header__search-form-button {
           width: 70px;
           height: 36px;
           border: 1px solid #2f00ff;
       }
 
-      .search-button__image {
+      .header__search-form-image {
           width: 70px;
           height: 36px;
       }

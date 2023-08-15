@@ -8,25 +8,21 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
   <body>
-    <!-- Спроба використання BEM -->
-    <!-- "class" додано для подальшого створення CSS-файлу, наразі такого файлу немає-->
-
-    <!-- це блок -->
     <div class="header">
-      <!-- нижче елемент для блока "header" -->
       <div class="header__title">
         <p>МОЇ ЗАВДАННЯ</p>
       </div>
-      <!-- аналогічно -->
-      <div class="header__search-container">
-        <input type="text" class="input" placeholder="Введіть текст" />
-        <!-- нижче знову блок -->
-        <div class="search-button">
-          <!-- нижче елемент для блока "search-button" -->
+      <div class="header__search-form">
+        <input
+          type="text"
+          class="header__search-form-field"
+          placeholder="Введіть текст"
+        />
+        <div class="header__search-form-button">
           <img
             src="images/search-button.jpg"
             alt="Search"
-            class="search-button__image"
+            class="header__search-form-image"
           />
         </div>
       </div>
