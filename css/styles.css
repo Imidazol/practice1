@@ -52,65 +52,93 @@ body {
   height: 36px;
 }
 
-.cards {
+.containers {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   margin-left: 30px;
   margin-right: 30px;
 }
 
-.cards__frame-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.containers__1 {
   width: 260px;
   height: auto;
   border-top: 4px solid #36b1f6;
-  padding: 12px, 15px, 20px, 15px;
-  gap: 15px;
+  background-color: #f2f2f2;
 }
 
-.cards__frame-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.containers__2 {
   width: 260px;
   height: auto;
   border-top: 4px solid #0315be;
-  padding: 12px, 15px, 20px, 15px;
-  gap: 15px;
+  background-color: #f2f2f2;
 }
 
-.cards__frame-3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.containers__3 {
   width: 260px;
   height: auto;
   border-top: 4px solid #e30909;
-  padding: 12px, 15px, 20px, 15px;
-  gap: 15px;
+  background-color: #f2f2f2;
 }
 
-.cards__frame-4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.containers__4 {
   width: 260px;
   height: auto;
   border-top: 4px solid #e2a60c;
-  padding: 12px, 15px, 20px, 15px;
-  gap: 15px;
+  background-color: #f2f2f2;
 }
 
-.cards__frame-5 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.containers__5 {
   width: 260px;
   height: auto;
   border-top: 4px solid #05b417;
-  padding: 12px, 15px, 20px, 15px;
-  gap: 15px;
+  background-color: #f2f2f2;
+}
+
+.container-header {
+  margin-left: 15px;
+  margin-top: 12px;
+}
+
+.container-header__title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.container-header__form {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.container-window {
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 9px;
+}
+
+.container-window__title {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 9px;
+  color: #1844b6;
+}
+
+.container-window__form {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 9px;
+  color: #8c8b8d;
+}
+
+.container-window__date {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  color: #151515;
 }
