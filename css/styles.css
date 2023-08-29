@@ -59,35 +59,35 @@ body {
   margin-right: 30px;
 }
 
-.containers__1 {
+.containers__empty--new {
   width: 260px;
   height: auto;
   border-top: 4px solid #36b1f6;
   background-color: #f2f2f2;
 }
 
-.containers__2 {
+.containers__empty--in-action {
   width: 260px;
   height: auto;
   border-top: 4px solid #0315be;
   background-color: #f2f2f2;
 }
 
-.containers__3 {
+.containers__empty--emergency {
   width: 260px;
   height: auto;
   border-top: 4px solid #e30909;
   background-color: #f2f2f2;
 }
 
-.containers__4 {
+.containers__empty--waiting {
   width: 260px;
   height: auto;
   border-top: 4px solid #e2a60c;
   background-color: #f2f2f2;
 }
 
-.containers__5 {
+.containers__empty--closed {
   width: 260px;
   height: auto;
   border-top: 4px solid #05b417;
