@@ -59,15 +59,12 @@ body {
   margin-right: 30px;
 }
 
-.containers__frame {
-  margin-bottom: 20px;
-}
-
 .containers__empty--new {
   width: 260px;
   height: auto;
   border-top: 4px solid #36b1f6;
   background-color: #f2f2f2;
+  padding-bottom: 20px;
 }
 
 .containers__empty--in-action {
@@ -75,6 +72,7 @@ body {
   height: auto;
   border-top: 4px solid #0315be;
   background-color: #f2f2f2;
+  padding-bottom: 20px;
 }
 
 .containers__empty--emergency {
@@ -82,6 +80,7 @@ body {
   height: auto;
   border-top: 4px solid #e30909;
   background-color: #f2f2f2;
+  padding-bottom: 20px;
 }
 
 .containers__empty--waiting {
@@ -89,6 +88,7 @@ body {
   height: auto;
   border-top: 4px solid #e2a60c;
   background-color: #f2f2f2;
+  padding-bottom: 20px;
 }
 
 .containers__empty--closed {
@@ -96,6 +96,7 @@ body {
   height: auto;
   border-top: 4px solid #05b417;
   background-color: #f2f2f2;
+  padding-bottom: 20px;
 }
 
 .container-header {
