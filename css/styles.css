@@ -59,6 +59,10 @@ body {
   margin-right: 30px;
 }
 
+.containers__frame {
+  margin-bottom: 20px;
+}
+
 .containers__empty--new {
   width: 260px;
   height: auto;
