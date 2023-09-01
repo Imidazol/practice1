@@ -15,19 +15,15 @@ body {
 .header__title {
   font-size: 25px;
   font-weight: 600;
-  text-align: left;
 }
 
-.search-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.search-form__field {
+.header__controls {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.input-form {
   width: 360px;
   height: 36px;
   border: 1px solid #000;
@@ -35,21 +31,13 @@ body {
   font-weight: 500;
   line-height: 16px;
   text-align: left;
-}
-
-.search-input {
-  margin: 10px;
-}
-
-.search-form__button {
-  width: 70px;
-  height: 36px;
-  border: 1px solid #2f00ff;
+  padding-left: 10px;
 }
 
 .button-image {
   width: 70px;
   height: 36px;
+  border: 1px solid #2f00ff;
 }
 
 .content {
