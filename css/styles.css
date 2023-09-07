@@ -1,6 +1,5 @@
 body {
   font-family: Raleway, sans-serif;
-  font-size: 1px;
 }
 
 .header {
@@ -21,7 +20,7 @@ body {
 }
 
 .header__title {
-  font-size: 25em;
+  font-size: 25px;
   font-weight: 600;
 }
 
