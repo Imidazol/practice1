@@ -41,24 +41,26 @@ body {
 .input-form {
   width: 260px;
   height: 36px;
-  border: 1px solid #000;
+  border: 1px solid #d1d1d1;
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
+  /* em */
+  /* rem */
   text-align: left;
   padding-left: 10px;
 }
 
 @media (max-width: 480px) {
   .input-form {
-    width: auto;
+    width: 100;
   }
 }
 
 .button-image {
   width: 70px;
   height: 36px;
-  border: 1px solid #2f00ff;
+  /* border: 1px solid rgb(0, 38, 255); */
 }
 
 .content {

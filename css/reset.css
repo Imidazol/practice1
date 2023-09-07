@@ -1,9 +1,12 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  /* font: inherit; */
   /* шрифт як у "батьківському" класі */
-  vertical-align: baseline;
+  box-sizing: border-box;
+  /* vertical-align: baseline; */
 }
