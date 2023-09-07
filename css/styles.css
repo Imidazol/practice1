@@ -12,6 +12,14 @@ body {
   margin-bottom: 20px;
 }
 
+@media (max-width: 1350px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     display: flex;
@@ -31,7 +39,7 @@ body {
 }
 
 .input-form {
-  width: 360px;
+  width: 260px;
   height: 36px;
   border: 1px solid #000;
   font-size: 14px;
@@ -43,7 +51,7 @@ body {
 
 @media (max-width: 480px) {
   .input-form {
-    width: 160px;
+    width: auto;
   }
 }
 
