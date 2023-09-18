@@ -80,7 +80,7 @@ body {
 @media (max-width: 768px) {
   .content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
 }
@@ -95,6 +95,14 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+/* @media (max-width: 1440px) {
+  .content__column {
+    flex-wrap: initial;
+    width: 100%;
+    height: min-content;
+  }
+} */
 
 @media (max-width: 600px) {
   .content__column {

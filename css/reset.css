@@ -4,9 +4,5 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  /* font: inherit; */
-  /* шрифт як у "батьківському" класі */
   box-sizing: border-box;
-  /* vertical-align: baseline; */
 }
