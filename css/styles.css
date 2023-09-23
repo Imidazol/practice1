@@ -5,40 +5,39 @@ body {
   color: #000;
   font-family: Raleway;
 }
-
+/* -----HEADER----- */
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 35px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 20px;
+  padding: 35px 30px 0px 30px;
 }
-
-@media (max-width: 480px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
+.header__title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.header__controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media (max-width: 600px) {
   .header {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
-}
-
-.header__title {
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.header__controls {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  .header__title {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+  }
+  .header__controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .input-form {
@@ -48,8 +47,6 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
-  /* em */
-  /* rem */
   text-align: left;
   padding-left: 10px;
 }
@@ -63,14 +60,14 @@ body {
 .button-image {
   width: 70px;
   height: 36px;
-  /* border: 1px solid rgb(0, 38, 255); */
 }
+
+/* -----BODY----- */
 
 .content {
   display: flex;
   justify-content: space-between;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 20px 20px;
 }
 
 @media (max-width: 1440px) {
@@ -81,36 +78,29 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-  .content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-}
-
 .content__column {
-  flex-wrap: initial;
-  width: 260px;
+  flex: 1;
+  min-width: 260px;
   height: min-content;
   padding-bottom: 20px;
   background-color: #f2f2f2;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0px 10px;
 }
 
-/* @media (max-width: 1440px) {
+@media (max-width: 1440px) {
   .content__column {
-    flex-wrap: initial;
-    width: 100%;
-    height: min-content;
+    flex: 1;
+    min-width: 260px;
+    height: auto;
+    padding-bottom: 20px;
+    margin: 0px 10px 10px 10px;
   }
-} */
+}
 
 @media (max-width: 600px) {
   .content__column {
     width: 100%;
+    margin: 0px 10px 10px 10px;
   }
 }
 
